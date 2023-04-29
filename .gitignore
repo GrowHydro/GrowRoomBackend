@@ -1,3 +1,4 @@
 .tfvars
 .docs
 .terraform*
+.terraform/*
