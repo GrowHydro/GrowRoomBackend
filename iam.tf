@@ -39,14 +39,14 @@ data "aws_iam_policy_document" "cicd-pipeline-policies" {
 }
 
 resource "aws_iam_policy" "cicd-pipeline-policy" {
-  name        = "tf-cicd-pipeline-policy"
+  name        = "cicd-pipeline-policy"
   path        = "/"
   description = "Pipeline policy"
   policy      = data.aws_iam_policy_document.cicd-pipeline-policies.json
 }
 
 resource "aws_iam_role_policy_attachment" "cicd-pipeline-attachment" {
-  policy_arn = aws_iam_policy.tf-cicd-pipeline-policy.arn
+  policy_arn = aws_iam_policy.cicd-pipeline-policy.arn
   role       = aws_iam_role.pipeline-role.id
 }
 
