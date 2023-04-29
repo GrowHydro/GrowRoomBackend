@@ -1,0 +1,5 @@
+dockerhub_credentials          = "arn:aws:secretsmanager:us-west-2:373157733381:secret:prod/growroom/backend-kJO4iV"
+codestar_connector_credentials = "arn:aws:codestar-connections:us-west-2:373157733381:connection/d90f4786-334f-4206-a1a0-733abcaa054d"
+env                            = "prod"
+region                         = "us-west-2"
+company                        = "homegrown-hydro"
