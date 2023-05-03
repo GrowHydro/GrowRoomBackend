@@ -22,3 +22,13 @@ variable "company" {
   type        = string
   description = "Name of the Owning Company"
 }
+
+variable "access_key" {
+  type        = string
+  description = "Access Key for aws Account"
+}
+
+variable "secret_key" {
+  type        = string
+  description = "Secret Key for aws Accout"
+}

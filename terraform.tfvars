@@ -3,3 +3,5 @@ codestar_connector_credentials = "arn:aws:codestar-connections:us-west-2:3731577
 env                            = "prod"
 region                         = "us-west-2"
 company                        = "homegrown-hydro"
+access_key                     = "AKIAVNYPPEQCQPLALLG4"
+secret_key                     = "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"

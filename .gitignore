@@ -2,3 +2,5 @@
 .docs
 .terraform*
 .terraform/*
+state.tf
+s3.tf
