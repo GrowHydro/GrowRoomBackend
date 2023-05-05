@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f325544.css",
-    "main.js": "/static/js/main.1f54e21d.js",
+    "main.css": "/static/css/main.49933e35.css",
+    "main.js": "/static/js/main.9de5168d.js",
     "static/js/787.de8190c3.chunk.js": "/static/js/787.de8190c3.chunk.js",
     "static/media/hex.jpg": "/static/media/hex.6f606f701f2708569875.jpg",
     "static/media/vertical-cannabis-growing-system.jpg": "/static/media/vertical-cannabis-growing-system.ccb8c3c7202733c22858.jpg",
+    "static/media/vertical-farm-pot.jpeg": "/static/media/vertical-farm-pot.9608e394e361d6fe5155.jpeg",
     "static/media/navigation.jpg": "/static/media/navigation.b65c21f5625db62ef75a.jpg",
+    "static/media/HydroponicFactory.webp": "/static/media/HydroponicFactory.e5ed19836e0dc5909351.webp",
     "static/media/vertical-farm.jpg": "/static/media/vertical-farm.0513f06a518947b63df7.jpg",
     "service-worker.js": "/service-worker.js",
+    "static/media/gorgeous.webp": "/static/media/gorgeous.b3d90f79be38b73646b3.webp",
     "static/media/scix-small.png": "/static/media/scix-small.378d62d37637a52500d8.png",
     "static/media/compass.jpg": "/static/media/compass.d16a44fb6cac8ce9ea92.jpg",
     "static/media/calm.jpg": "/static/media/calm.be245d62bbe56c6b5c70.jpg",
     "index.html": "/index.html",
-    "main.2f325544.css.map": "/static/css/main.2f325544.css.map",
-    "main.1f54e21d.js.map": "/static/js/main.1f54e21d.js.map",
+    "main.49933e35.css.map": "/static/css/main.49933e35.css.map",
+    "main.9de5168d.js.map": "/static/js/main.9de5168d.js.map",
     "787.de8190c3.chunk.js.map": "/static/js/787.de8190c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f325544.css",
-    "static/js/main.1f54e21d.js"
+    "static/css/main.49933e35.css",
+    "static/js/main.9de5168d.js"
   ]
 }
