@@ -32,7 +32,7 @@ data "aws_iam_policy_document" "cicd-pipeline-policies" {
   }
   statement {
     sid       = ""
-    actions   = ["cloudwatch:*", "s3:*", "codebuild:*"]
+    actions   = ["cloudwatch:*", "s3:*", "codebuild:*", "lambda:*"]
     resources = ["*"]
     effect    = "Allow"
   }
@@ -75,7 +75,7 @@ EOF
 data "aws_iam_policy_document" "cicd-build-policies" {
   statement {
     sid       = ""
-    actions   = ["logs:*", "s3:*", "codebuild:*", "secretsmanager:*", "iam:*"]
+    actions   = ["logs:*", "s3:*", "codebuild:*", "secretsmanager:*", "iam:*", "lambda:*"]
     resources = ["*"]
     effect    = "Allow"
   }
